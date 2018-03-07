@@ -21,3 +21,14 @@
 	color: white;
 }
 
+
+.form-container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.grid-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
