@@ -3,5 +3,5 @@ var matcherView = {
 
 	init:function () {},
 
-	updateGameState: function() {},
+	updateGameView: function() {},
 };
