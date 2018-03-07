@@ -5,7 +5,8 @@ $(document).ready( function(){
 		e.preventDefault();
 		var size = $("grid-size").val();
 		matcherController.init(size);
-		$("#grid-size-form").hide();
+		$(this).closest('form').hide();
+		// $("#grid-size-form").hide();
 		matcherView.updateGameView();
 	});
 } );
