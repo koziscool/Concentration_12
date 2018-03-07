@@ -32,7 +32,7 @@ var matcherModel = {
 
 	randomValue: function(){
 		return this.cardValues[ Math.floor( Math.random() * this.cardValues.length)];
-	}.
+	},
 
 	Card: function( id, value ){
 		this.id = id;
