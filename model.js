@@ -1,6 +1,7 @@
 
 var matcherModel = {
 	size: 4,
+	cards: [],
 	cardValues: [ "A", "B", "C", "D", "E", "F", "G", "H" ],
 	currentId: 1,
 	totalCards: 0,
