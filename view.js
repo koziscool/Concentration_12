@@ -17,7 +17,12 @@ var matcherView = {
 		});
 	},
 
-	updateGameView: function() {},
+	updateGameView: function() {
+		$("#game-state-text").text( this.model.gameStateText );
+		$("#num-guesses").text( this.model.numGuesses );
+		$("#matched-cards").text( this.model.matchedCards );
+		$("#total-cards").text( this.model.totalCards );
+	},
 
 	addCardsToGrid: function() {
 		for( var i = 0; i < this.model.cards.length; i++ ){

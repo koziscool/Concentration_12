@@ -37,11 +37,5 @@ var matcherController= {
 			this.model.setSelectedCard(id);
 			this.selecting = false;
 		}
-
-
-
 	}, 
-
-
-
 };
