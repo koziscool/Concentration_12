@@ -9,4 +9,6 @@ var matcherController= {
 		this.view.init();
 	},
 
+	selectCard: function(id){},
+
 };
