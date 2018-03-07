@@ -19,7 +19,7 @@ var matcherController= {
 			var selectedId = this.model.selectedCard.id;
 			var isCorrect = this.model.checkGuess(id);
 			this.view.updateGameView();
-			var this = that;
+			var that = this;
 
 			if(isCorrect) {
 				setTimeout( function(){
